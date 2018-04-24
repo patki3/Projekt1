@@ -13,14 +13,7 @@ print("u1 + u2 = ", end=" ")
 print(u1 + u2)
 print("u1 - u2 = ", end=" ")
 print(u1 - u2)
-print("Czy u1 > od u2?  ", end=" ")
-print(u1>u2)
-print("Czy u1 < od u2?  ", end=" ")
-print(u1<u2)
-print("Czy u1 = od u2?  ", end=" ")
-print(u1==u2)
-print("Czy u1 != od u2?  ", end=" ")
-print(u1!=u2)
+
 
 tablica=[u1,u2,Ulamek(3,4)]
 print(str(list(map(str,tablica))))
